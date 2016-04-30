@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # 
 # morgan@morganjones.org
-# build an ldap group with the results of an aribitrary group
+# build an ldap group with the results of an aribitrary search
 # this is a work-around for application that doesn't support dynamic groups
 
 use strict;
