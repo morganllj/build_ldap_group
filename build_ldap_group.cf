@@ -1,9 +1,9 @@
 
-$filter = "(&(objectClass=orgZimbraPerson)(orgAccountActive=TRUE)(|(objectClass=orgEmployee)(objectClass=orgAssociate)))";
-$group = "cn=classroom_teachers,ou=gafe,ou=groups,dc=domain,dc=org";
+$filter = "(objectClass=employee)";
+$group = "cn=classroom_teachers,ou=groups,dc=domain,dc=org";
 $binddn = "cn=svc_acct";
 $bindpass = "pass";
-$base = "ou=employees,dc=domain,dc=org";
+$base = "ou=people,dc=domain,dc=org";
 $host = "ldaps://devldapm.domain.net";
 
 1;
